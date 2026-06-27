@@ -1,0 +1,16 @@
+name: Build Nova VS Code Extension
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+    - run: npm install -g @vscode/vsce
+    - run: vsce package
+    - uses: actions/upload-artifact@v2
+      with:
+        name: nova-studio-extension
+        path: "*.vsix"

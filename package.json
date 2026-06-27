@@ -1,0 +1,9 @@
+{
+  "name": "nova-studio",
+  "displayName": "Nova Studio",
+  "version": "1.0.0",
+  "engines": { "vscode": "^1.60.0" },
+  "contributes": {
+    "commands": [{ "command": "nova.run", "title": "Run Nova Code" }]
+  }
+}

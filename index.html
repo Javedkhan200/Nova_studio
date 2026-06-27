@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Studio | Universal Computing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #0d1117; color: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+        .card-bg { background-color: #161b22; border: 1px solid #30363d; }
+        .btn-os { background-color: #21262d; border: 1px solid #30363d; transition: 0.2s; }
+        .btn-os:hover { background-color: #30363d; border-color: #8b949e; }
+        .btn-primary { background-color: #1f6feb; color: white; }
+        .btn-primary:hover { background-color: #388bfd; }
+        .glow-pro { box-shadow: 0 0 20px rgba(31, 111, 235, 0.2); border-color: #1f6feb; }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center py-10 px-4">
+
+    <header class="w-full max-w-5xl flex justify-between items-center mb-16">
+        <div class="text-2xl font-bold text-white tracking-wide">Nova<span class="text-blue-500">Studio</span></div>
+        <div class="flex gap-6 items-center text-sm font-semibold">
+            <a href="#" class="hover:text-white transition">Ecosystem</a>
+            <a href="#" class="border border-gray-600 px-4 py-1.5 rounded-md hover:border-white transition text-white">Sign Up</a>
+        </div>
+    </header>
+
+    <div class="text-center max-w-3xl mb-16">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-6 leading-tight">The Multi-Platform Universal Computing Language.</h1>
+        <p class="text-gray-400 text-lg">One-click graphical installers designed to build apps natively across Windows, Linux, Arch, Mac, and Android APK structures.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl w-full">
+        
+        <div class="card-bg p-8 rounded-2xl flex flex-col">
+            <h2 class="text-2xl font-bold text-white mb-2">Nova Core</h2>
+            <p class="text-gray-400 text-sm mb-6">Standard graphical runtime package with limited syntax modules for system validation.</p>
+            
+            <ul class="space-y-3 mb-8 text-sm">
+                <li class="flex items-center gap-3"><span class="text-green-500">🟢</span> In-built VS Code Direct Extension Connector</li>
+                <li class="flex items-center gap-3"><span class="text-green-500">🟢</span> Native Single-Click Graphical Launcher</li>
+                <li class="flex items-center gap-3 text-gray-500"><span class="text-red-500">🔴</span> Locked: Complete All-Language Polyglot Architecture</li>
+                <li class="flex items-center gap-3 text-gray-500"><span class="text-red-500">🔴</span> Locked: Advanced Mobile Android Native Terminal IDE</li>
+            </ul>
+
+            <div class="text-xs text-gray-500 mb-3 font-semibold tracking-wide">SELECT TARGET ARCHITECTURE:</div>
+            <div class="grid grid-cols-3 gap-2 mb-8 text-xs">
+                <button class="btn-os py-2 rounded-md text-white">.exe (Win)</button>
+                <button class="btn-os py-2 rounded-md text-white border-blue-500 bg-blue-900/20">.deb (Linux)</button>
+                <button class="btn-os py-2 rounded-md text-white">.zst (Arch)</button>
+                <button class="btn-os py-2 rounded-md text-white">.dmg (Mac)</button>
+                <button class="btn-os py-2 rounded-md text-white">.apk (Android)</button>
+                <button class="btn-os py-2 rounded-md text-white">.nova (Format)</button>
+            </div>
+
+            <div class="mt-auto">
+                <div class="text-3xl font-bold text-white mb-4">Free</div>
+                <button class="w-full bg-white text-black font-bold py-3 rounded-lg hover:bg-gray-200 transition">Download Core Setup</button>
+            </div>
+        </div>
+
+        <div class="card-bg p-8 rounded-2xl flex flex-col glow-pro relative overflow-hidden">
+            <div class="absolute top-0 right-0 bg-blue-600 text-xs font-bold px-3 py-1 rounded-bl-lg text-white">RECOMMENDED</div>
+            <h2 class="text-2xl font-bold text-white mb-2">Nova Pro</h2>
+            <p class="text-gray-400 text-sm mb-6">The complete omnidirectional computing engine hosting all native libraries and compilers ever made.</p>
+            
+            <ul class="space-y-3 mb-8 text-sm">
+                <li class="flex items-center gap-3"><span class="text-green-500">🟢</span> Unleashed: Complete All-Language Polyglot Architecture</li>
+                <li class="flex items-center gap-3"><span class="text-green-500">🟢</span> Unleashed: Full Android Native IDE & App Terminal Shell</li>
+                <li class="flex items-center gap-3"><span class="text-green-500">🟢</span> Unleashed: One-Click Mac, Windows, Linux Installer</li>
+                <li class="flex items-center gap-3"><span class="text-green-500">🟢</span> Unleashed: VS Code Code-Runner Hotkey Integration</li>
+            </ul>
+
+            <div class="text-xs text-gray-500 mb-3 font-semibold tracking-wide">SELECT TARGET ARCHITECTURE:</div>
+            <div class="grid grid-cols-3 gap-2 mb-8 text-xs">
+                <button class="btn-os py-2 rounded-md text-white">.exe (Win)</button>
+                <button class="btn-os py-2 rounded-md text-white border-blue-500 bg-blue-900/20">.deb (Linux)</button>
+                <button class="btn-os py-2 rounded-md text-white">.zst (Arch)</button>
+                <button class="btn-os py-2 rounded-md text-white">.dmg (Mac)</button>
+                <button class="btn-os py-2 rounded-md text-white">.apk (Android)</button>
+                <button class="btn-os py-2 rounded-md text-white">.nova (Format)</button>
+            </div>
+
+            <div class="mt-auto">
+                <div class="text-3xl font-bold text-white mb-4">₹750 <span class="text-sm text-gray-400 font-normal">/ one-time</span></div>
+                <button class="w-full btn-primary font-bold py-3 rounded-lg transition shadow-lg shadow-blue-500/30">Purchase Pro Setup</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

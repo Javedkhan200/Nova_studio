@@ -1,0 +1,4 @@
+Nova.show("Testing Nova Studio Pro Engine...")
+Nova.python("print('Nova is controlling Python!')")
+Nova.os.run("free -h")
+Nova.show("Engine test complete.")

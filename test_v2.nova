@@ -1,0 +1,3 @@
+Nova.show("Testing Nova Studio v2.1...")
+Nova.python("print('Nova is now fully controlling Python without errors!')")
+Nova.ai.heal("print(Missing brackets in Python)")
